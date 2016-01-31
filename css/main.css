@@ -18,11 +18,11 @@ body{
 	width:659px;
 	height:494px;
 }
-.ryu-still,.ryu-ready,.ryu-throwing{
+.ryu-still,.ryu-ready,.ryu-throwing,.ryu-cool{
 	width:659px;
 	height:494px;
 }
-.ryu-ready,.ryu-throwing{
+.ryu-ready,.ryu-throwing,.ryu-cool{
 	display:none;
 }
 .ryu-still{
@@ -47,4 +47,19 @@ body{
 	z-index: 10;
 	top:167px;
 	left:603px;
+}
+.ryu-cool{
+	background-image: url('../images/ryu-cool.gif');
+}
+.main > .how-to-control{
+	position:relative;
+	z-index: 1;
+	width: 500px;
+	float:right;
+	top:50px;
+	right:90px;
+	font-size: 40px;
+	overflow:hidden;
+	font-family: "Cabin Sketch";
+	font-weight: 700;
 }
